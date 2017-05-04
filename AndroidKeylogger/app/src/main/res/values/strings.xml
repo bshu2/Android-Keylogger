@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidKeylogger</string>
+    <string name="accessibility_service_label">...</string>
+</resources>

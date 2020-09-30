@@ -1,4 +1,4 @@
-package server
+package main
 
 import (
 	"io/ioutil"
@@ -9,7 +9,7 @@ import (
 
 var entries = []string{}
 
-func init() {
+func main() {
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)
 }
